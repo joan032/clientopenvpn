@@ -20,7 +20,7 @@ wget $f_ca
 wget $f_config
 wget $f_crt
 wget $f_key
-wget $f_tacd ..
+wget $f_ta
 
 
 # Copy the configuration 
