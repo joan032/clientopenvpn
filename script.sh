@@ -24,7 +24,7 @@ wget $f_ta
 
 # Copy the configuration 
 sudo cp cacert.pem /etc/openvpn
-sudo cp myserver.conf /etc/openvpn
+sudo cp client.conf /etc/openvpn
 sudo cp vpnclient1.projecteinfovj.com.crt /etc/openvpn
 sudo cp vpnclient1.projecteinfovj.com.key /etc/openvpn
 sudo cp ta.key /etc/openvpn
