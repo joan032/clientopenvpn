@@ -13,14 +13,15 @@ f_ca="https://raw.githubusercontent.com/joan032/clientopenvpn/main/cacert.pem"
 f_config="https://raw.githubusercontent.com/joan032/clientopenvpn/main/client.conf"
 f_crt="https://raw.githubusercontent.com/joan032/clientopenvpn/main/vpnclient1.projecteinfovj.com.crt"
 f_key="https://raw.githubusercontent.com/joan032/clientopenvpn/main/vpnclient1.projecteinfovj.com.key"
-f_ta="https://github.com/joan032/clientopenvpn/blob/main/ta.key"
+f_ta="https://raw.githubusercontent.com/joan032/clientopenvpn/main/ta.key"
 
 # Download GitHub configuration file
 wget $f_ca
 wget $f_config
 wget $f_crt
 wget $f_key
-wget $f_ta
+wget $f_tacd ..
+
 
 # Copy the configuration 
 sudo cp cacert.pem /etc/openvpn
